@@ -66,7 +66,7 @@ export class CheckoutPaymentComponent implements AfterViewInit, OnDestroy {
     } else {
       this.cardErrors = null;
     }
-    switch(event.ElementType) {
+    switch(event.elementType) {
       case 'cardNumber':
         this.cardNumberValid = event.complete;
         break;
