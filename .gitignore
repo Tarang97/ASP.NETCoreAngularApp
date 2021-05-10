@@ -5,3 +5,8 @@ appsettings.json
 .DS_Store
 settings.json
 *.redis
+Dockerfile
+.dockerignore
+.vs
+wwwroot
+Content
